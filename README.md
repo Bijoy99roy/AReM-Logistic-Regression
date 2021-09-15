@@ -1,2 +1,4 @@
 # AReM-Logistic-Regression
-# 🚀 [Launch App] [https://arem-activity.herokuapp.com/]
+## 🚀Deployed Link
+
+### [Lanuch App](https://ai41-regression.herokuapp.com/)
