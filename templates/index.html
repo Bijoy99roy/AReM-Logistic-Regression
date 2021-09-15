@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="form-block mt-5">
+        <form class="row" action="/input" method="POST">
+            <div class="col-4">
+                <div class="form-group">
+                   <label>Var Rss12</label>
+                    <input name="var_rss12" type="tel" class="form-control"  required>
+                </div>
+              </div>
+
+            <div class="col-4">
+                <div class="form-group">
+                   <label>Var Rss13</label>
+                    <input name="var_rss13" type="tel" class="form-control"  required>
+                </div>
+              </div>
+
+            <div class="col-4">
+                <div class="form-group">
+                   <label>Var Rss23</label>
+                    <input name="var_rss23" type="tel" class="form-control"  required>
+                </div>
+              </div>
+
+
+
+
+            <input class="btn btn-primary" type="submit" value="Submit" style="height: 50px;margin-top: 22px;">
+        </form>
+    </div>
+
+</div>
+{% endblock content %}
